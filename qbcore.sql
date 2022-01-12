@@ -270,13 +270,13 @@ CREATE TABLE IF NOT EXISTS `player_vehicles` (
   `paymentamount` int(11) NOT NULL DEFAULT 0,
   `paymentsleft` int(11) NOT NULL DEFAULT 0,
   `financetime` int(11) NOT NULL DEFAULT 0,
-  `posX` float NOT NULL;
-  `posY` float NOT NULL;
-  `posZ` float NOT NULL;
-  `rotX` float NOT NULL;
-  `rotY` float NOT NULL;
-  `rotZ` float NOT NULL;
-  `lastUpdate` int(11) NOT NULL DEFAULT '0';
+  `posX` float NOT NULL,
+  `posY` float NOT NULL,
+  `posZ` float NOT NULL,
+  `rotX` float NOT NULL,
+  `rotY` float NOT NULL,
+  `rotZ` float NOT NULL,
+  `lastUpdate` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `plate` (`plate`),
   KEY `citizenid` (`citizenid`),
