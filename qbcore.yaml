@@ -467,19 +467,6 @@ tasks:
     dest: ./resources/[qb]/qb-input
     ref: main
     src: https://github.com/qbcore-framework/qb-input
-    
-  - action: waste_time # prevent github throttling
-    seconds: 10
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-tattooshop
-    ref: main
-    src: https://github.com/MrEvilGamer/qb-tattooshop
-    
-   - action: download_github
-    dest: ./resources/[qb]/qb-bitmining
-    ref: main
-    src: https://github.com/qbcore-framework/qb-bitmining
    
   # Clean up
   - action: remove_path
